@@ -2,11 +2,13 @@ import express from 'express';
 import mongoose from 'mongoose';
 import { Task } from './task.js';
 import * as dotenv from 'dotenv';
+import cors from 'cors';
 
 dotenv.config();
 console.log(process.env.DATABASE_URL);
 const app = express();
 app.use(express.json());
+app.use(cors());
 
 await mongoose.connect(process.env.DATABASE_URL);
 

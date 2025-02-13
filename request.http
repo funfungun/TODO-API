@@ -1,5 +1,5 @@
 ###
-POST http://localhost:3000/tasks
+POST https://todo-api-eoze.onrender.com/tasks
 Content-Type: application/json
 
 {
@@ -8,13 +8,13 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:3000/tasks
+GET https://todo-api-eoze.onrender.com/tasks
 
 ###
-GET http://localhost:3000/tasks/67aae1c5c88c656be45e462e
+GET https://todo-api-eoze.onrender.com/tasks/67ab121aed5ae4ecb9715fa2
 
 ###
-PATCH  http://localhost:3000/tasks/67aae1c5c88c656be45e462e
+PATCH  https://todo-api-eoze.onrender.com/tasks/67ab121aed5ae4ecb9715fa2
 Content-Type: application/json
 
 {
@@ -24,4 +24,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3000/tasks/67aae1c5c88c656be45e462e
+DELETE https://todo-api-eoze.onrender.com/tasks/67ab121aed5ae4ecb9715fa2
